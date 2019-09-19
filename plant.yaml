@@ -1,0 +1,13 @@
+  monstera_deliciosa:
+    sensors:
+      moisture: sensor.monstera_deliciosa_soil_moisture
+      temperature: sensor.monstera_deliciosa_temperature
+      conductivity: sensor.monstera_deliciosa_fertilizer_level
+      brightness: sensor.monstera_deliciosa_light_level
+    min_moisture: 15
+    max_moisture: 60
+    check_days: 1
+    min_conductivity: 350
+    max_conductivity: 2000
+    min_brightness: 800
+    max_brightness: 15000
