@@ -14,4 +14,5 @@ In HA:
 
 1. Create a plant.yaml if you dont already have one.
 2. Input your plant sensor information using the info from your configured esphome device. 
+2a. additional aarguments can me found here - https://www.home-assistant.io/components/plant/
 3. Create a plant card using the plant entity ID that was created in step 2. (use dev tools - states to find the entity ID)
